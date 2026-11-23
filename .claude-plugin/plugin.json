@@ -1,0 +1,8 @@
+{
+  "name": "research-tree",
+  "description": "Keep a research project's history as a living tree on a claude.ai artifact page: experiments with what they asked, did and found, suggested options and whether they are still open, a glossary, and a 'you are here' marker.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/gbay7/research-tree",
+  "repository": "https://github.com/gbay7/research-tree",
+  "keywords": ["research", "experiments", "lab-notebook", "artifact", "tracking"]
+}

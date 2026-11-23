@@ -1,0 +1,15 @@
+{
+  "name": "research-tree",
+  "metadata": {
+    "description": "The Research Tree skill: a research project's history as a living tree on a claude.ai artifact page"
+  },
+  "owner": {
+    "name": "gbay7"
+  },
+  "plugins": [
+    {
+      "name": "research-tree",
+      "source": "./"
+    }
+  ]
+}
