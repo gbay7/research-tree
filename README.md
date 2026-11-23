@@ -3,6 +3,11 @@
 A Claude Code skill that keeps a research project's history as a living tree, on a page you can open from any
 device.
 
+![The "You are here" view: the current experiment, its path from the goal, the options still open around it, and where the project stands](docs/images/you-are-here.png)
+
+<sub>All screenshots show the made-up example project that ships with the skill (reviving old tomato seed), not
+real data.</sub>
+
 Long research gets lost: after each experiment several next steps are suggested, one is followed deep, the others
 are forgotten, and months later nobody remembers why a direction was dropped. The Research Tree records:
 
@@ -13,6 +18,26 @@ are forgotten, and months later nobody remembers why a direction was dropped. Th
 
 The page is a claude.ai artifact with a small database. Claude writes to it as the work goes; you read it, change a
 status, write a note or add an idea from the page. One page holds any number of projects.
+
+## What it looks like
+
+**The tree.** Every experiment, line of work and suggested option, from the goal on the left to the latest step.
+Shape and colour carry the status (passed, failed, mixed, running, planned, open, dropped); the path to "you are
+here" is highlighted.
+
+![The tree map of the example project](docs/images/tree-map.png)
+
+**One experiment.** What it asked, what was done, what was found and the verdict, with the options suggested after
+it and whether each was taken. You can change a status, write a note or add an idea from here.
+
+![The detail panel of one experiment](docs/images/experiment-detail.png)
+
+**Open threads and more.** Options nobody has taken yet, oldest first, so nothing suggested is forgotten. An outline
+view, a timeline and a glossary of the project's terms; light and dark themes; works on a phone.
+
+| Open threads | Outline, dark theme | Phone |
+|---|---|---|
+| <img src="docs/images/open-threads.png" alt="Open threads: options not taken yet, grouped by the step they followed" width="330"> | <img src="docs/images/outline-dark.png" alt="The outline view in the dark theme" width="330"> | <img src="docs/images/phone.png" alt="The You are here view on a phone" width="160"> |
 
 ## Install
 

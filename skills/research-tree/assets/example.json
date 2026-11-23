@@ -67,7 +67,7 @@
      "title": "Water soak for 12 h (soak-12)", "date": "2026-03-08",
      "asked": "Does a plain water soak raise the germination rate?",
      "did": "Seeds soaked 12 h in tap water at 20 C, then sown as in the baseline. Registered rule: pass if the rate beats the control tray by at least 10 points.",
-     "found": "Rate 58% against 44% for control (+14 points).", "verdict": "Soaking helps, but not enough to reach 80%.", "next": "Try a longer soak.",
+     "found": "Rate 58% against 44% for control.", "verdict": "Soaking helps, but not enough to reach 80%.", "next": "Try a longer soak.",
      "proposed_by": "user", "proposed_in": null, "terms": ["seedlab--soak", "seedlab--registered-rule", "seedlab--control-tray"], "links": [], "user_note": "", "updated": "2026-03-08T12:00:00Z"},
 
     {"id": "seedlab--soak-24", "project": "seedlab", "parent": "seedlab--line-soak", "order": 2, "kind": "experiment", "status": "failed",
@@ -98,7 +98,7 @@
      "title": "Heat mat at 26 C (heatmat-26)", "date": "2026-04-05",
      "asked": "Does warmth raise the rate, or only the speed?",
      "did": "Trays on a heat mat set to 26 C, otherwise as the baseline. Two outcomes registered: speed (days to half the final count) and final rate.",
-     "found": "- Speed: **passed**, 4.1 days against 6.3 for control\n- Final rate: **failed**, 49% against 44% (needed +10)",
+     "found": "- Speed: **passed**, 4.1 days against 6.3 for control\n- Final rate: **failed**, 49% against 44% (the rule needed 54%)",
      "verdict": "Seeds sprout faster, but not more of them.", "next": "",
      "proposed_by": "claude", "proposed_in": null, "terms": ["seedlab--germination-rate"], "links": [], "user_note": "", "updated": "2026-04-05T12:00:00Z"},
 
